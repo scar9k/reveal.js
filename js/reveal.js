@@ -123,7 +123,7 @@
 			autoSlideMethod: null,
 
 			// Enable slide navigation via mouse wheel
-			mouseWheel: false,
+			mouseWheel: true,
 
 			// Apply a 3D roll to links on hover
 			rollingLinks: false,
@@ -144,13 +144,13 @@
 			focusBodyOnPageVisibilityChange: true,
 
 			// Transition style
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
+			transition: 'zoom', // none/fade/slide/convex/concave/zoom
 
 			// Transition speed
-			transitionSpeed: 'default', // default/fast/slow
+			transitionSpeed: 'slow', // default/fast/slow
 
 			// Transition style for full page slide backgrounds
-			backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+			backgroundTransition: 'slide', // none/fade/slide/convex/concave/zoom
 
 			// Parallax background image
 			parallaxBackgroundImage: '', // CSS syntax, e.g. "a.jpg"
